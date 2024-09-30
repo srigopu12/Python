@@ -1,16 +1,16 @@
-Name = "sri"
-Age = 25
-Hobby = "playing"
+name = "sri"
+age = 25
+hobby = "playing"
 # multiline 
 print("Name:", name, "Age:", age)
 # f string
-print(f"{Name} is {Age} and {Hobby}")
+print(f"{name} is {age} and {hobby}")
 # % operator
 print("%s is %d years old." % (name, age))
 # sring format
 print("{} is {} years old.".format(name, age))
 #seprator
-print("Hello","world" sep=",")
+print("Hello", "World", sep="-")  
 #end
 print("hello", end=",")
 print("world!")
