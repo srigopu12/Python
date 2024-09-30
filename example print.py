@@ -2,7 +2,7 @@ Name = "sri"
 Age = 25
 Hobby = "playing"
 # multiline 
-print("Name:" Name ,"Age:" Age)
+print("Name:", name, "Age:", age)
 # f string
 print(f"{Name} is {Age} and {Hobby}")
 # % operator
